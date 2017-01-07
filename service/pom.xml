@@ -6,13 +6,10 @@
         <artifactId>summersky</artifactId>
         <groupId>com.flybpc</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <packaging>war</packaging>
 
     <artifactId>summersky-service</artifactId>
-
     <dependencies>
         <dependency>
             <groupId>com.flybpc</groupId>
@@ -25,6 +22,5 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
 
 </project>
