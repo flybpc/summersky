@@ -17,7 +17,6 @@
         <module>core</module>
         <module>dao</module>
         <module>service</module>
-        <module>webapi</module>
         <module>model</module>
         <module>webapi</module>
     </modules>
