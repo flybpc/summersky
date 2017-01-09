@@ -20,8 +20,6 @@
         <module>webapi</module>
         <module>model</module>
         <module>webapi</module>
-        <module>webapi</module>
-        <module>webapi</module>
     </modules>
 
     <!--申明依赖关系-->
