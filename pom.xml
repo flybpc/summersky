@@ -17,10 +17,7 @@
         <module>core</module>
         <module>dao</module>
         <module>service</module>
-        <module>webapi</module>
         <module>model</module>
-        <module>webapi</module>
-        <module>webapi</module>
         <module>webapi</module>
     </modules>
 
@@ -30,7 +27,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
@@ -61,19 +61,19 @@
     <!--设置maven仓库-->
 
     <repositories>
-       <!-- <repository>
+        <repository>
             <id>spring-releases</id>
             <url>https://repo.spring.io/libs-release</url>
-        </repository>-->
-        <repository>
+        </repository>
+     <!--   <repository>
             <id>nexus</id>
             <url>http://10.10.70.220:8081/nexus/content/groups/public</url>
-        </repository>
+        </repository>-->
     </repositories>
     <pluginRepositories>
         <pluginRepository>
             <id>spring-releases</id>
-            <url>http://10.10.70.220:8081/nexus/content/groups/public</url>
+            <url>https://repo.spring.io/libs-release</url>
         </pluginRepository>
     </pluginRepositories>
 
