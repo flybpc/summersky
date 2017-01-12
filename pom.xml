@@ -62,13 +62,13 @@
                 <artifactId>h2</artifactId>
                 <version>1.4.191</version>
             </dependency>
-            <dependency>
+         <!--   <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-parent</artifactId>
                 <version>Camden.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
-            </dependency>
+            </dependency>-->
             <!-- declare Spring BOMs in order -->
             <dependency>
                 <groupId>io.spring.platform</groupId>
@@ -78,11 +78,10 @@
                 <scope>import</scope>
             </dependency>
 
-            <dependency>
+          <!--  <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
-            </dependency>
-
+            </dependency>-->
            <!--
            <dependency>
                 <groupId>org.springframework.boot</groupId>
