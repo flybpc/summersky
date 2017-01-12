@@ -5,7 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:nobodyiam/config-repo.git
+          uri: https://github.com/flybpc/config-repo.git
+          clone-on-start: true
 
 server:
   port: 8888
